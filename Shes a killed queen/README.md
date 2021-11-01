@@ -97,7 +97,7 @@ bar.finish()
 after running the code we get the height and width as - 
 Width: 1200, Height 675
 so when we change the dimensions from hex editor/modsize we get this image -
-![queen2jpeg.jpeg](./queen2jpeg.jpeg)
+![queen-uncorrputed.png.png](./queen-uncorrputed.png.png)
 
 now we use stegsolve on this and find a queen's cipher
 ![queen-cipher.jpg](./queencipher.jpg)
