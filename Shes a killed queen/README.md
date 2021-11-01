@@ -54,6 +54,11 @@ https://hexed.it
 
 
 ![hexedit(crc).jpg](./hexedit(crc).jpg)
+
+
+
+
+
 We change the 4 Highligthed hex to 3B8B7C12
 
 
