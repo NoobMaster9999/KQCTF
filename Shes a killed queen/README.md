@@ -20,6 +20,7 @@ Now we move the curropted image to the same folder then we do -
 ```
 it will give  - 
 
+
 So, we find the right dimensions by bruteforcing!
 The code for the same:
 
