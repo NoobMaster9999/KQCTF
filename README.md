@@ -5,6 +5,21 @@ These are the writeups for the KQCTF 2021
 We have an image which is corrupted!
 
 First of all, when we try to open the image, it gives error as somebody tampered with the height and width of the image!
+The crc of the image is wrong too!
+so we find the crc by PCRT - 
+https://github.com/sherlly/PCRT
+commands are - 
+```bash
+git clone https://github.com/sherlly/PCRT
+cd /PCRT
+chmod +x PCRT.py
+```
+Now we move the curropted image to the same folder then we do - 
+```bash
+./PCRT.py queen.png
+```
+it will give  - 
+
 So, we find the right dimensions by bruteforcing!
 The code for the same:
 
@@ -18,7 +33,7 @@ from zlib import crc32
 #width = 0
 #height = 0
 bar = IncrementalBar('Brute forcing dimesnsions', max=2000*2000)
-required_crc = 0x0db3f6c0
+required_crc = 0x3B8B7C12
 
 for width in range(2000):
 
