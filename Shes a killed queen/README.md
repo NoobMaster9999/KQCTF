@@ -31,6 +31,8 @@ it will give  -
 
 
 ![pcrt.jpg](./pcrt.jpg)
+Now, we open the hex editor -
+https://hexed.it
 
 So, we find the right dimensions by bruteforcing!
 The code for the same:
