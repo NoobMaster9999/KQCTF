@@ -4,8 +4,8 @@ These are the writeups for the KQCTF 2021
 
 We have an image which is corrupted!
 
-First of all, when we try to open the image, it gives error as somebody tampered with the height and width of the image!
-The crc of the image is wrong too!
+First of all, when we try to open the image, it gives error 
+When we use the file command it gives width and height as 0!
 so we find the crc by PCRT - 
 https://github.com/sherlly/PCRT
 commands are - 
