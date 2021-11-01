@@ -18,6 +18,12 @@ Now we move the curropted image to the same folder then we do -
 ```bash
 ./PCRT.py queen.png
 ```
+
+
+
+
+
+
 it will give  - 
 
 
@@ -31,6 +37,12 @@ it will give  -
 
 
 ![pcrt.jpg](./pcrt.jpg)
+
+
+
+
+
+
 Now, we open the hex editor -
 https://hexed.it
 
