@@ -101,6 +101,11 @@ so when we change the dimensions from hex editor/modsize we get this image -
 
 now we use stegsolve on this and find a queen's cipher
 ![queen-cipher.jpg](./queen-cipher.jpg)
+
+
+
+
+
 now we can decode it online from -
 https://www.dcode.fr/mary-stuart-code
 
