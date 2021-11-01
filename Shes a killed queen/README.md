@@ -19,7 +19,7 @@ Now we move the curropted image to the same folder then we do -
 ./PCRT.py queen.png
 ```
 it will give  - 
-
+![pcrt.jpg](./pcrt.jpg)
 
 So, we find the right dimensions by bruteforcing!
 The code for the same:
