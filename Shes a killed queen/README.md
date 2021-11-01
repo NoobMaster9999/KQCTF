@@ -34,6 +34,20 @@ it will give  -
 Now, we open the hex editor -
 https://hexed.it
 
+
+
+
+
+
+
+
+![hexedit(crc).jpg](./hexedit(crc).jpg)
+We change the 4 Highligthed hex to 3B8B7C12
+
+
+
+
+Now, we need to to find the height and width!
 So, we find the right dimensions by bruteforcing!
 The code for the same:
 
